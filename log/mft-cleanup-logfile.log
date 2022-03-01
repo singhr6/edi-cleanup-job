@@ -1,0 +1,35 @@
+2022-02-28 21:50:18,733 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GXS
+2022-02-28 21:50:18,901 — root — INFO — <module>:70 — Argos and MongoDB status record updated
+2022-02-28 21:51:02,586 — root — INFO — <module>:19 — ------Initiating Cleanup Job for EDI logs------.
+2022-02-28 21:51:02,587 — root — INFO — <module>:34 — Loading config data.
+2022-02-28 21:51:02,589 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\DLXPRD
+2022-02-28 21:51:02,774 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\DLXPRD
+2022-02-28 21:51:02,776 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\DLXPRD
+2022-02-28 21:51:02,902 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\DLXPRD
+2022-02-28 21:51:02,903 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\GHX
+2022-02-28 21:51:03,030 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\GHX
+2022-02-28 21:51:03,031 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\GHX
+2022-02-28 21:51:03,131 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\GHX
+2022-02-28 21:51:03,131 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\GXS
+2022-02-28 21:51:03,251 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\GXS
+2022-02-28 21:51:03,251 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\GXS
+2022-02-28 21:51:03,356 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\GXS
+2022-02-28 21:51:03,357 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\SHRDIR\working\tibcobc_shared\DLXPRD
+2022-02-28 21:51:03,471 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\SHRDIR\working\tibcobc_shared\DLXPRD
+2022-02-28 21:51:03,472 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\SHRDIR\working\tibcobc_shared\GHX
+2022-02-28 21:51:03,572 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\SHRDIR\working\tibcobc_shared\GHX
+2022-02-28 21:51:03,573 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\MFT\ZIMMERCANADA\ARCHIVE\From
+2022-02-28 21:51:03,653 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\MFT\ZIMMERCANADA\ARCHIVE\From
+2022-02-28 21:51:03,654 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\EDI\ReportSvc\856
+2022-02-28 21:51:03,752 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\EDI\ReportSvc\856
+2022-02-28 21:51:03,753 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\EDI\ReportSvc\855
+2022-02-28 21:51:03,850 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\EDI\ReportSvc\855
+2022-02-28 21:51:03,851 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\RP_GTS_OrderCheck
+2022-02-28 21:51:03,943 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\RP_GTS_OrderCheck
+2022-02-28 21:51:03,943 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\DLXPRD
+2022-02-28 21:51:04,040 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\DLXPRD
+2022-02-28 21:51:04,041 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GHX
+2022-02-28 21:51:04,138 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GHX
+2022-02-28 21:51:04,139 — root — INFO — <module>:50 — Cleaning up dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GXS
+2022-02-28 21:51:04,235 — root — INFO — <module>:53 — Cleanup complete for dir : \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GXS
+2022-02-28 21:51:04,397 — root — INFO — <module>:70 — Argos and MongoDB status record updated
