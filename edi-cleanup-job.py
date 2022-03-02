@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 try:
     #initialize logger
     Log_Format = "%(asctime)s — %(name)s — %(levelname)s — %(funcName)s:%(lineno)d — %(message)s"
-    logging.basicConfig(handlers=[RotatingFileHandler('./log/mft-cleanup-logfile.log', maxBytes=5000, backupCount=2)],
+    logging.basicConfig(handlers=[RotatingFileHandler('./log/mft-cleanup-logfile.log', maxBytes=20480, backupCount=2)],
                         format=Log_Format,
                         level=logging.INFO)
 

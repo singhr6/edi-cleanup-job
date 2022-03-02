@@ -1,22 +1,19 @@
 env: prod                                         # Options - prod, qa, dev.
-retention: 90                                    # Put the data retention period in days
+retention: 30                                    # Put the data retention period in days
 job-name: 'bc-cleanup'                            # Name of the job
 
 ---
 
 cleanup-dir:                                      # List of directories whose files need to be cleaned up.
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\DLXPRD
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\DLXPRD
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\GHX
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\GHX
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\In\GXS
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\X12\Out\GXS
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\SHRDIR\working\tibcobc_shared\DLXPRD
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\SHRDIR\working\tibcobc_shared\GHX
-  - \\tibco-nas\TIB_FILESHARE\PROD\MFT\ZIMMERCANADA\ARCHIVE\From
-  - \\tibco-nas\TIB_FILESHARE\PROD\EDI\ReportSvc\856
-  - \\tibco-nas\TIB_FILESHARE\PROD\EDI\ReportSvc\855
-  - \\tibco-nas\TIB_FILESHARE\PROD\RP_GTS_OrderCheck
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\DLXPRD
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GHX
-  - \\tibco-nas\TIB_FILESHARE\PROD\BC\EDI\x12auditlog\in\GXS
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\X12\Out\GXS
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\X12\In\GHX
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\X12\Out\GHX
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\X12\In\GXS
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\X12\Out\GXS
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\SHRDIR\working\tibcobc_shared\GHX
+  - \\tibco-nas\TIB_FILESHARE\QA\MFT\ZIMMERCANADA\ARCHIVE\From
+  - \\tibco-nas\TIB_FILESHARE\QA\EDI\ReportSvc\856
+  - \\tibco-nas\TIB_FILESHARE\QA\EDI\ReportSvc\855
+  - \\tibco-nas\TIB_FILESHARE\QA\RP_GTS_OrderCheck
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\x12auditlog\in\GHX
+  - \\tibco-nas\TIB_FILESHARE\QA\BC\EDI\x12auditlog\in\GXS
