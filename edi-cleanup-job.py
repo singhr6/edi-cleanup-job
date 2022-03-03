@@ -64,7 +64,9 @@ finally:
     # Update the job status in mongodb job_status collection.
     if (error_flag == 'Y'):
         jobs.send_jobstatus(job_name, "failed", job_runtime, '', socket.gethostname())
+        argos_utils.update_influxdb('job_status','job','edi_cleanup',2)
         logging.info("Argos and MongoDB status record updated")
     else:
         jobs.send_jobstatus(job_name, "successful", job_runtime, '', socket.gethostname())
+        argos_utils.update_influxdb('job_status','job','edi_cleanup',0)
         logging.info("Argos and MongoDB status record updated")
